@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+  text-align: center;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 17.82px;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 58px;
+}
+
+nav li a:hover {
+  background-color: rgb(226, 226, 226);
+}     
+
+.ukuran {
+  max-width: 100%;
+  height: auto;
+}
+
+.posisi {
+  position: relative;
+}
+
+.text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  white-space: nowrap;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column img {
+  width:250px; 
+  border-radius:20px; 
+  box-shadow:0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.backy {
+  background-color: rgb(235, 235, 235);
+}
+
+.contain h3 {
+  padding-top: 20px;
+}
+
+.contain p {
+  line-height: 2px;
+  font-size: 20px;
+  text-align: center;     
+  margin-top: 30px;  
+  margin-bottom: 30px;  
+  font-family: Spectral, serif;
+  margin-right: 0;
+}
+
+.polaroid {
+  width: 25%;
+  text-align: center;
+  float: left;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.polaroid img {
+  width : 24vw;
+}
+
+.study h3 {
+  margin-top: 50px;
+}
+
+.study p {
+  text-align: center; 
+  margin: 0;
+  font-size: 19px;
+}
+
+.columns2 {
+  float: left;
+  width: 33.33%;
+  margin-top: 20px;
+}
+
+.box {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.box:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+  
+.box .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+  
+.box li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.border {
+  margin-top: 500px;
+  border: 2px solid black;
+  padding: 10px;
+  padding-bottom: 350px;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-content: center;
+}
+
+.border p {
+  text-align: center; 
+  margin: 0; 
+  padding-top: 20px;
+}
+
+iframe {
+  border-radius: 25px;
+}
+
+.centaur {
+  margin-top: 20px;
+}
+
+.goals {
+  padding: 20px;
+}
+
+.containerss {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin: 30px;
+}
+  
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+  
+.containerss img {
+  float: left;
+  width: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container-padding {
+  height: 300px;
+}
+
+.columns3 {
+  float: left;
+  width: 33.33%;
+  padding: 8px;
+}
+
+.columns3 p {
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  color: rgb(60, 9, 88);
+  font-size: 12.5px;
+}
+
+.columns3 img {
+  width: 100px; 
+  border-radius: 50%; 
+  border: 3px solid #000000;
+  cursor:pointer;
+}
+
+.columns3 h5 {
+  font-family: Spectral;
+  font-size: 17px; 
+  margin-top: 5px; 
+  margin-bottom: 10px
+}
+
+h1{
+  font-size: 15vw;
+  letter-spacing: -4px;
+  font-family: "Spectral", serif;
+  line-height: 0.6;
+  font-weight: bold;
+  text-shadow: 5px 5px 4px #353535;
+}
+
+h2{
+  font-size: 5vw;
+  font-family: "Spectral", serif;
+  font-weight: bold;
+  line-height: 0.9;
+  text-shadow: 2px 2px 4px #353535;
+}
+
+h3{
+  font-size: 35px;
+  font-family: Spectral, serif
+}
+
+h4 {
+  font-size: 30px;
+  font-family: Spectral, serif;
+  text-align: center;
+}
+
+p{
+  font-size: 15px;
+}
+
+.modal-content{
+  margin: auto;
+  width: 35vw;
+  position: relative;
+  padding: 0;
+  outline: 0;
+}
+
+h5 {
+  font-size: 10vw;
+}
+
+.sizee {
+  font-size: 14px;
+}
+
+.sizee i {
+  font-size: 2vw;
+}
+
+footer {
+  color: #fff;
+  background-color: #000;
+}
+
+.coint {
+  height: 2vw ;
+}
+
+hr{
+  border: 0;
+  border-top: 2px solid #eee;
+}
